@@ -39,7 +39,7 @@
 #define OPTION_DELAY_US 300000 // delay between option changes in micro-seconds (μs)
 useconds_t SCAN_DELAY_US = 8000; // delay between screen captures in micro-seconds (μs)
 uint64_t MOUSE_UPDATE_US = 16000; // delay between mouse movements in micro-seconds (μs)
-uint mouse_smooth = 1; // mouse smoothing steps
+uint mouse_smooth = 0; // mouse smoothing steps
 float mouse_scaler = 8.f; // mouse movement scaler
 
 // other
